@@ -38,17 +38,7 @@ export async function Page({
             </div>
             <div className="w-full md:pb-20">
               <div className="flex w-full gap-4 md:w-max">
-                <Link
-                  className={cn(
-                    "w-full md:w-max",
-                    buttonVariants({
-                      variant: "default",
-                    })
-                  )}
-                  href="https://www.cosmicjs.com"
-                >
-                  Get started free
-                </Link>
+                
                 <Link
                   className={cn(
                     "w-full md:w-max",
@@ -56,7 +46,7 @@ export async function Page({
                       variant: "secondary",
                     })
                   )}
-                  href="https://www.cosmicjs.com/contact"
+                  href="mailto:scrideconsultingagency@gmail.com"
                 >
                   Contact us
                 </Link>
